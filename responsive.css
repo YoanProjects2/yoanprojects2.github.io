@@ -1,0 +1,113 @@
+@media screen and (max-width: 1200px) {
+    .hero-head h1, .hero-head .goal {
+        margin-left: 20px;
+    }
+
+    .wrapper{
+        width: 95%;
+    }
+
+    .wrapper .content-wrap{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+        align-items: flex-start;
+    }
+
+    .main-foot .wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .main-foot .wrapper address, .main-foot .wrapper nav{
+        margin-right: 25%;
+    }
+}
+
+    @media screen and (max-width: 700px){
+        .hero-head {
+            background-image: none;
+            background: #181620;
+            display: flex;
+            flex-direction: column;
+            min-height: 100px;
+            overflow: hidden;
+
+        }
+
+        .sandwitch{
+            display: block;
+            float: right;
+            margin-top: 18px;
+        }
+
+        .main-nav {
+            display: none;
+        }
+
+        .hero-head h1{
+            margin-left: 0;
+            text-align: center;
+        }
+
+        .hero-head .goal{
+
+            text-align: center;
+            max-width: 100000px;
+            margin-left: 0;
+            padding-bottom: 15px;
+        }
+
+        .content-wrap.two-col .col {
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             margin-right: 0;
+             text-align: center;
+        }
+
+        .button{
+            width: 100%;
+        }
+
+        .wrapper .content-wrap{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .large-text-link  {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .content.woodsmoke > div{
+            text-align: center;
+        }
+
+        .button-list{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-foot .wrapper{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        }
+
+        .main-foot .wrapper address, .main-foot .wrapper nav{
+            margin-right: 0;
+            text-align: center;
+        } 
+
+        .main-foot .bottom .bottom-wrap{
+            text-align: center;
+            width: initial;
+        }
+    }
